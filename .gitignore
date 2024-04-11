@@ -1,1 +1,12 @@
 ashe/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+.vscode/
+.DS_Store
+myenv/
+db.sqlite3
+media/
+staticfiles/
