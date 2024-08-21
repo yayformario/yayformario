@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head_title %} Home Page - {{block.super}} {% endblock head_title %}
+
+{% block content%}
+
+    <p>{{page_title}}</p>
+
+    <!-- Example of using an HTML snippet we created-->
+    {% include 'snippets/welcome-user-msg.html' %}
+
+
+    <!-- Queryset for page visists-->
+    <p> Total visists: {{total_visit_count}} </p>
+    
+    <p> Page visits: {{ page_visit_count }} </p>
+
+    <p> Percentage of page visist: {{percent}}
+
+{% endblock content%}
+
+
+
+
+
+
