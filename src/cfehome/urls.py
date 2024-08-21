@@ -21,6 +21,6 @@ from.views import home_page_view
 
 urlpatterns = [
     path("", home_page_view), #Index page -> root page
-    path("hell-world/", home_page_view),
+    path("hello-world/", home_page_view),
     path('admin/', admin.site.urls),
 ]
